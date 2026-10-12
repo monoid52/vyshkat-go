@@ -26,6 +26,6 @@ An employee should be modelled separately: employees are not inventory assets. A
 
 [`TestInspectionBeforeAcceptance`](fleet/park_test.go) checks that failed inspection excludes a vehicle from reports; [`TestReportsIncludeOnlyAcceptedAssets`](fleet/park_test.go) covers the beginner threshold and energy totals. [`TestContainerReplacesServiceCenter`](internal/wiring/container_test.go) replaces the real inspector with a test stub through the same DI container, then checks the resulting park state.
 
-**AI use:** Весь код написал ИИ. Я просмотрел, очень красивый код. Расширяемый. Я добавил CI, для большей красоты. Современная модель не может написать плохой код в таком простом проекте, тем более с таким хорошим промптом - в виде pdf с заданием.
+**AI use:** Весь код написал ИИ. Я просмотрел, очень красивый код. Расширяемый. Полностью отвечаю за понимание и качество. Я добавил CI, для большей красоты. Современная модель не может написать плохой код в таком простом проекте, тем более с таким хорошим промптом - в виде pdf с заданием.
 
 <i>От защиты отказываюсь.</i>
